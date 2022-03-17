@@ -9,8 +9,8 @@
 }
 
 body {
-    font-size: 15px;
     font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
 
 :root {
@@ -150,19 +150,19 @@ body {
 .text-highlight-1,
 .text-highlight-1>li>a,
 .text-highlight-1>li {
-    color: var(--highlight-color1);
+    color: var(--highlight-color1) !important;
 }
 
 .text-highlight-2,
 .text-highlight-2>li>a,
 .text-highlight-2>li {
-    color: var(--highlight-color2);
+    color: var(--highlight-color2) !important;
 }
 
 .text-normal,
 .text-normal>li>a,
 .text-normal>li {
-    color: var( --text-normal-color);
+    color: var( --text-normal-color) !important;
 }
 
 .text-highlight-title,
@@ -896,6 +896,13 @@ ul {
     line-height: 20px;
 }
 
+
+/* css3 */
+
+.hover-menu-style-1:hover {
+    border-bottom: 2px solid gray;
+}
+
 .ul-primary {
     list-style: none;
     margin-bottom: 0;
@@ -1431,7 +1438,20 @@ ul {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    margin-bottom: 39px;
+}
+
+.weight-200,
+.a-weight-200>a,
+.p-weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
 }
 
 .weight-500 {
@@ -1728,4 +1748,72 @@ ul {
 .w3-card-4,
 .w3-hover-shadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/*--------------------------------------------------------------- WordPress */
+
+
+/* ul-primary wordpress */
+
+
+/* setting -menu c1 wordpress */
+
+.ul-primary-wp {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex!important;
+    position: relative;
+    -ms-flex-pack: center!important;
+    justify-content: center!important
+}
+
+.ul-primary-wp>li {
+    padding: 10px 10px;
+    background-color: brown;
+    color: white;
+    font-weight: 400;
+    position: relative;
+}
+
+.ul-primary-wp>li:hover {
+    background-color: rgb(199, 61, 61);
+}
+
+
+/* setting -menu c2 wordpress */
+
+ul.sub-menu {
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul.sub-menu>li {
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    width: 179px;
+    background-color: #111010d4;
+    font-size: 14px;
+}
+
+ul.sub-menu>li:hover {
+    background-color: #111010fb;
+}
+
+.ul-primary-wp>li:hover ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: 0.4s;
+}
+
+@media (max-width:991px) {
+    /* menu */
+    .ul-primary-wp {
+        display: none !important;
+    }
 }

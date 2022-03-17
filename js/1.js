@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    $('.content_menu , .link').slideUp(0);
+    $('#autoWidth').lightSlider({
+        autoWidth: true,
+        auto: true,
+        loop: true,
 
-    $('.box span,.content_menu span').click(function() {
-
-        $(this).next('.content_menu,.link').slideToggle();
-
-        $(this).toggleClass('bg-cyclamen-opacity ');
-        $(this).toggleClass('demo ');
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        }
     });
 });
