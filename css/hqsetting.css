@@ -1,0 +1,231 @@
+.dropdown-menu-center.setting {
+    width: 79vmax;
+}
+
+.highlight-responsive.setting-tooltip {
+    width: 15px;
+    height: 15px;
+    border: 2px solid palevioletred;
+}
+
+.top-right.icon-setting {
+    position: absolute;
+    top: 16px;
+    right: -10px;
+}
+
+.highlight-responsive.icon-setting {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+}
+
+.setting-menu .highlight-responsive {
+    height: 50px;
+    width: 50px;
+}
+
+.top-right.setting-menu {
+    top: 9px;
+    right: 10px;
+}
+
+.left-middle.setting-caption {
+    left: 50px;
+}
+
+.ratio-1-2.edit {
+    padding-bottom: 30px;
+}
+
+
+/* setting vị trí highlight sale,loại SP */
+
+.top-right.sale-highlight-pos {
+    right: 12px;
+    top: 12px;
+}
+
+
+/* setting kíck cỡ highlight  */
+
+.highlight-pin {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    cursor: pointer;
+}
+
+
+/* setting vị trí pin */
+
+.setting-pin-0 {
+    top: 30%;
+    left: 46%;
+}
+
+.setting-pin-1 {
+    top: 68%;
+    left: 26%;
+}
+
+.setting-pin-2 {
+    top: 60%;
+    left: 18%;
+}
+
+.setting-pin-5 {
+    top: 70%;
+    left: 50%;
+}
+
+
+/* setting size icon */
+
+.size {
+    font-size: 32px;
+    margin-right: 10px;
+    color: rgba(128, 128, 128, 0.342);
+}
+
+
+/* setting footer menu */
+
+.setting-footer-menu {
+    text-align: right;
+}
+
+
+/* setting footer-2 */
+
+.footer-menu {
+    padding: 20px 50px;
+}
+
+.fs-footer {
+    padding: 79px 50px;
+}
+
+@media (min-width:320px) and (max-width:543px) {
+    /* màn hình xs */
+    .hidden-sm {
+        display: none;
+    }
+    /* setting cho phần xem nhanh product */
+    .modal-content {
+        width: 60vmax;
+    }
+    .bg-img-view {
+        height: 65vh;
+    }
+    /* setting footer-2 */
+    .footer-menu {
+        padding: 20px 0px;
+    }
+    .fs-footer {
+        padding: 79px 0px;
+    }
+    .text-align {
+        text-align: center;
+    }
+    /* setting carosel */
+    .left-middle.setting-caption {
+        left: 15px;
+    }
+    /* setting button */
+    .button.button-responsive,
+    .button-radius-basic.button-responsive,
+    .button-radius-basic.button-responsive>.hover-text-hidden,
+    .button-radius-basic.button-responsive>.hover-icon-show,
+    .button-radius-basic.button-responsive>.hover-icon-hidden,
+    .button-radius-basic.button-responsive>.hover-text-show {
+        width: 139px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:544px) and (max-width:767px) {
+    .hidden-sm {
+        display: none;
+    }
+    .text-align {
+        text-align: center;
+    }
+    /* setting carosel */
+    .left-middle.setting-caption {
+        left: 25px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /* màn hình md */
+    .text-align {
+        text-align: center;
+    }
+    /* setting carosel */
+    .left-middle.setting-caption {
+        left: 30px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    /* màn hình lg */
+    .img-background.bg-pos-slide {
+        height: 79vh;
+    }
+    /* setting footer-2 */
+    .footer-menu {
+        padding: 20px 50px;
+    }
+    .fs-footer {
+        padding: 79px 50px;
+    }
+    /* setting carosel */
+    .left-middle.setting-caption {
+        left: 39px;
+    }
+}
+
+
+/* setting <1025px */
+
+@media (max-width:1025px) {
+    .l-data-menu {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .r-data-menu {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    /* menu */
+    .logo-large,
+    .menu-large {
+        display: none;
+    }
+    .menu-medium>i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    /* row-content 1 */
+    .ratio-1-2.edit {
+        padding-bottom: 10px;
+    }
+}
+
+
+/* data-menu */
+
+
+/* setting >1026px */
+
+@media (min-width:1026px) {
+    .logo-medium,
+    .menu-medium {
+        display: none;
+    }
+}
