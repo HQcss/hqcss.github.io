@@ -128,6 +128,9 @@
     .text-align {
         text-align: center;
     }
+    .category-style-1-w-539::before {
+        max-width: 542px;
+    }
     /* setting carosel */
     .left-middle.setting-caption {
         left: 15px;
