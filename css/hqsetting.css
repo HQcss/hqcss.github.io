@@ -131,6 +131,9 @@
     .category-style-1-w-539::before {
         width: 100%;
     }
+    .category-style-1-w-395::before {
+        width: 100%;
+    }
     /* setting carosel */
     .left-middle.setting-caption {
         left: 15px;
