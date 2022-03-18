@@ -1,11 +1,9 @@
 $(document).ready(function() {
-    $('.content_menu , .link').slideUp(0);
 
-    $('.box span,.content_menu span').click(function() {
-
-        $(this).next('.content_menu,.link').slideToggle();
-
-        $(this).toggleClass('bg-cyclamen-opacity ');
-        $(this).toggleClass('demo ');
+    $('.btn-menu').click(function(e) {
+        $('.small-menu').toggleClass('show');
+        $('.box-search').toggleClass('show');
     });
+
+
 });
