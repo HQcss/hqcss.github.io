@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Plugin -->
+    <!-- bootstrap w3-school -->
+    <link rel="stylesheet" href="plugin/Bootstrap/Boootstrap5-1_w3-school/css/bootstrap5.min.css">
+    <script src="plugin/Bootstrap/Boootstrap5-1_w3-school/js/bootstrap.min.js"></script>
+    <script src="plugin/Bootstrap/Boootstrap5-1_w3-school/js/jquery.min.js"></script>
+    <script src="plugin/Bootstrap/Boootstrap5-1_w3-school/js/popper.min.js"></script>
+
+    <link rel="stylesheet" href="plugin/w3css/w3.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- for me -->
+    <link rel="stylesheet" href="css/hqcss-final.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="css/menu-small.css">
+
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="js/1.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="w3-container">
+
+
+        <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'1')">Web</button>
+            <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'2')">Lightroom</button>
+
+        </div>
+
+        <div id="1" class="w3-container w3-border city padding-10">
+            <div>
+                <span>Ngày :</span>
+                <span>29-10-2021</span>
+            </div>
+            <div>
+                <span>Time :</span>
+                <span>6h-7h</span>
+            </div>
+            <div>
+                <span>Đã học :</span>
+                <span>Quản lý hình ảnh</span>
+
+            </div>
+            <div>
+                <span>Vấn đề còn lại :</span>
+                <span>Quản lý hình ảnh</span>
+
+            </div>
+        </div>
+
+        <div id="2" class="w3-container w3-border city" style="display:none">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="3" class="w3-container w3-border city" style="display:none">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+        }
+    </script>
+
+
+</body>
+
+</html>
