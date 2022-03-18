@@ -1339,11 +1339,11 @@ ul {
 }
 
 .category-style-1-w-395::before {
-    width: 395px;
+    width: 100%;
 }
 
 .category-style-1-w-539::before {
-    width: 539px;
+    width: 100%;
 }
 
 .highlight-title-responsive {
