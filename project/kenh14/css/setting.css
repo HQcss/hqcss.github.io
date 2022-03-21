@@ -87,7 +87,7 @@
 }
 
 .lienquan {
-    border-left: 6px solid rgba(128, 128, 128, 0.418);
+    border-left: 6px solid #ff3e04fa;
     margin: 10px 0px;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .border-l {
-    border-left: 5px solid gray;
+    border-left: 5px solid #ff3e04fa;
 }
 
 .footer-setting {
@@ -116,4 +116,8 @@
 
 .setting-font1 {
     font-family: 'Quicksand', sans-serif;
+}
+
+.tomtat {
+    background-color: #8080802e;
 }
