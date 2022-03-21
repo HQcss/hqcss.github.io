@@ -1,0 +1,115 @@
+/* top */
+
+.data-menu1 {
+    /* padding: 0px 120px; */
+    height: 32px;
+    line-height: 32px;
+}
+
+.data-menu2 {
+    /* padding: 0px 128px; */
+    height: 70px;
+    background-color: #F0A52B;
+}
+
+.button-setting {
+    border: none;
+    padding: 0px 10px;
+    color: #F0A52B;
+    font-size: 16px;
+}
+
+.input-setting {
+    border: none;
+    width: 200px;
+    padding: 0px 10px;
+}
+
+.input-setting:focus-visible {
+    border: none;
+    outline-offset: 0px;
+}
+
+.logo-setting {
+    line-height: 70px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* menu */
+
+.logo-small {
+    line-height: 39px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+.ul-primary>li {
+    padding: 10px 10px;
+    background-color: brown;
+    color: white;
+    font-weight: 400;
+}
+
+.ul-primary>li:hover {
+    background-color: rgb(199, 61, 61);
+}
+
+
+/* content */
+
+.content-news {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 39px;
+}
+
+.content-news.setting {
+    -webkit-line-clamp: 9;
+}
+
+.content-news>a {
+    font-weight: bold;
+}
+
+.content-setting {
+    background-color: white;
+    box-shadow: 1px 0px 4px 0 #8080806b;
+    padding: 30px 15px 0px 15px;
+}
+
+.lienquan {
+    border-left: 6px solid rgba(128, 128, 128, 0.418);
+    margin: 10px 0px;
+}
+
+
+/* tin  */
+
+.duongke::before {
+    content: '';
+    margin-bottom: 25px;
+    height: 3px;
+    width: 100%;
+    background-color: brown;
+}
+
+.border-l {
+    border-left: 5px solid gray;
+}
+
+.footer-setting {
+    padding: 50px 0px;
+}
+
+.f-right {
+    text-align: right;
+}
