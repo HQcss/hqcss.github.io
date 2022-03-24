@@ -1,0 +1,2813 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------------------------------------------------01.Color */
+
+
+/* 01.Theme color */
+
+
+/* 01.Theme color */
+
+:root {
+    /* color */
+    --main_data-menu_footer: #f6f6f8;
+    --content_menu_footer-bottom: #FFFFFF;
+    --banner-bg-color: #EEEEEE;
+    --highlight-color1: #56cfe1 !important;
+    --highlight-color2: #FF4E00;
+    --text-normal-color: #878787;
+    --text-highlight-color: #222;
+    --button-highlight-color: #222222;
+    --button-highlight-color2-bg: #fff;
+    --button-highlight-color2-text: #272525;
+    /* font-size */
+    --text-size-1: 55px;
+    --text-size-2: 45px;
+    --text-size-3: 36px;
+    --text-size-4: 32px;
+    --text-size-5: 24px;
+    --text-size-6: 18px;
+    /* ngoại lệ */
+    --text-size-title: 16px;
+    --text-size-normal: 14px;
+    --text-size-small: 10px;
+    --text-size-medium: 12px;
+}
+
+
+/* color theme */
+
+.fs-content,
+.fs-menu,
+.fs-footer-bottom {
+    background-color: var(--content_menu_footer-bottom);
+}
+
+.fs-banner {
+    background-color: var(--banner-bg-color);
+}
+
+.fs-footer,
+.fs-data-menu {
+    background-color: var( --main_data-menu_footer);
+}
+
+
+/*01.Background-colors */
+
+.w3-amber,
+.w3-hover-amber:hover {
+    color: #000!important;
+    background-color: #ffc107!important
+}
+
+.w3-aqua,
+.w3-hover-aqua:hover {
+    color: #000!important;
+    background-color: #00ffff!important
+}
+
+.w3-blue,
+.w3-hover-blue:hover {
+    color: #fff!important;
+    background-color: #2196F3!important
+}
+
+.w3-light-blue,
+.w3-hover-light-blue:hover {
+    color: #000!important;
+    background-color: #87CEEB!important
+}
+
+.w3-brown,
+.w3-hover-brown:hover {
+    color: #fff!important;
+    background-color: #795548!important
+}
+
+.w3-cyan,
+.w3-hover-cyan:hover {
+    color: #000!important;
+    background-color: #00bcd4!important
+}
+
+.w3-blue-grey,
+.w3-hover-blue-grey:hover,
+.w3-blue-gray,
+.w3-hover-blue-gray:hover {
+    color: #fff!important;
+    background-color: #607d8b!important
+}
+
+.w3-green,
+.w3-hover-green:hover {
+    color: #fff!important;
+    background-color: #4CAF50!important
+}
+
+.w3-light-green,
+.w3-hover-light-green:hover {
+    color: #000!important;
+    background-color: #8bc34a!important
+}
+
+.w3-indigo,
+.w3-hover-indigo:hover {
+    color: #fff!important;
+    background-color: #3f51b5!important
+}
+
+.w3-khaki,
+.w3-hover-khaki:hover {
+    color: #000!important;
+    background-color: #f0e68c!important
+}
+
+.w3-lime,
+.w3-hover-lime:hover {
+    color: #000!important;
+    background-color: #cddc39!important
+}
+
+.w3-orange,
+.w3-hover-orange:hover {
+    color: #000!important;
+    background-color: #ff9800!important
+}
+
+.w3-deep-orange,
+.w3-hover-deep-orange:hover {
+    color: #fff!important;
+    background-color: #ff5722!important
+}
+
+.w3-pink,
+.w3-hover-pink:hover {
+    color: #fff!important;
+    background-color: #e91e63!important
+}
+
+.w3-purple,
+.w3-hover-purple:hover {
+    color: #fff!important;
+    background-color: #9c27b0!important
+}
+
+.w3-deep-purple,
+.w3-hover-deep-purple:hover {
+    color: #fff!important;
+    background-color: #673ab7!important
+}
+
+.w3-red,
+.w3-hover-red:hover {
+    color: #fff!important;
+    background-color: #f44336!important
+}
+
+.w3-sand,
+.w3-hover-sand:hover {
+    color: #000!important;
+    background-color: #fdf5e6!important
+}
+
+.w3-teal,
+.w3-hover-teal:hover {
+    color: #fff!important;
+    background-color: #009688!important
+}
+
+.w3-yellow,
+.w3-hover-yellow:hover {
+    color: #000!important;
+    background-color: #ffeb3b!important
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important
+}
+
+.w3-grey,
+.w3-hover-grey:hover,
+.w3-gray,
+.w3-hover-gray:hover {
+    color: #000!important;
+    background-color: #9e9e9e!important
+}
+
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important
+}
+
+.w3-dark-grey,
+.w3-hover-dark-grey:hover,
+.w3-dark-gray,
+.w3-hover-dark-gray:hover {
+    color: #fff!important;
+    background-color: #616161!important
+}
+
+.w3-pale-red,
+.w3-hover-pale-red:hover {
+    color: #000!important;
+    background-color: #ffdddd!important
+}
+
+.w3-pale-green,
+.w3-hover-pale-green:hover {
+    color: #000!important;
+    background-color: #ddffdd!important
+}
+
+.w3-pale-yellow,
+.w3-hover-pale-yellow:hover {
+    color: #000!important;
+    background-color: #ffffcc!important
+}
+
+.w3-pale-blue,
+.w3-hover-pale-blue:hover {
+    color: #000!important;
+    background-color: #ddffff!important
+}
+
+
+/* 01.text-color */
+
+.w3-text-amber,
+.w3-hover-text-amber:hover {
+    color: #ffc107!important
+}
+
+.w3-text-aqua,
+.w3-hover-text-aqua:hover {
+    color: #00ffff!important
+}
+
+.w3-text-blue,
+.w3-hover-text-blue:hover {
+    color: #2196F3!important
+}
+
+.w3-text-light-blue,
+.w3-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+
+.w3-text-brown,
+.w3-hover-text-brown:hover {
+    color: #795548!important
+}
+
+.w3-text-cyan,
+.w3-hover-text-cyan:hover {
+    color: #00bcd4!important
+}
+
+.w3-text-blue-grey,
+.w3-hover-text-blue-grey:hover,
+.w3-text-blue-gray,
+.w3-hover-text-blue-gray:hover {
+    color: #607d8b!important
+}
+
+.w3-text-green,
+.w3-hover-text-green:hover {
+    color: #4CAF50!important
+}
+
+.w3-text-light-green,
+.w3-hover-text-light-green:hover {
+    color: #8bc34a!important
+}
+
+.w3-text-indigo,
+.w3-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+
+.w3-text-khaki,
+.w3-hover-text-khaki:hover {
+    color: #b4aa50!important
+}
+
+.w3-text-lime,
+.w3-hover-text-lime:hover {
+    color: #cddc39!important
+}
+
+.w3-text-orange,
+.w3-hover-text-orange:hover {
+    color: #ff9800!important
+}
+
+.w3-text-deep-orange,
+.w3-hover-text-deep-orange:hover {
+    color: #ff5722!important
+}
+
+.w3-text-pink,
+.w3-hover-text-pink:hover {
+    color: #e91e63!important
+}
+
+.w3-text-purple,
+.w3-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+
+.w3-text-deep-purple,
+.w3-hover-text-deep-purple:hover {
+    color: #673ab7!important
+}
+
+.w3-text-red,
+.w3-hover-text-red:hover {
+    color: #f44336!important
+}
+
+.w3-text-sand,
+.w3-hover-text-sand:hover {
+    color: #fdf5e6!important
+}
+
+.w3-text-teal,
+.w3-hover-text-teal:hover {
+    color: #009688!important
+}
+
+.w3-text-yellow,
+.w3-hover-text-yellow:hover {
+    color: #d2be0e!important
+}
+
+.w3-text-white,
+.w3-hover-text-white:hover {
+    color: #fff!important
+}
+
+.w3-text-black,
+.w3-hover-text-black:hover {
+    color: #000!important
+}
+
+.w3-text-grey,
+.w3-hover-text-grey:hover,
+.w3-text-gray,
+.w3-hover-text-gray:hover {
+    color: #757575!important
+}
+
+.w3-text-light-grey,
+.w3-hover-text-light-grey:hover,
+.w3-text-light-gray,
+.w3-hover-text-light-gray:hover {
+    color: #f1f1f1!important
+}
+
+.w3-text-dark-grey,
+.w3-hover-text-dark-grey:hover,
+.w3-text-dark-gray,
+.w3-hover-text-dark-gray:hover {
+    color: #3a3a3a!important
+}
+
+
+/* 01.border-color */
+
+.w3-border-amber,
+.w3-hover-border-amber:hover {
+    border-color: #ffc107!important
+}
+
+.w3-border-aqua,
+.w3-hover-border-aqua:hover {
+    border-color: #00ffff!important
+}
+
+.w3-border-blue,
+.w3-hover-border-blue:hover {
+    border-color: #2196F3!important
+}
+
+.w3-border-light-blue,
+.w3-hover-border-light-blue:hover {
+    border-color: #87CEEB!important
+}
+
+.w3-border-brown,
+.w3-hover-border-brown:hover {
+    border-color: #795548!important
+}
+
+.w3-border-cyan,
+.w3-hover-border-cyan:hover {
+    border-color: #00bcd4!important
+}
+
+.w3-border-blue-grey,
+.w3-hover-border-blue-grey:hover,
+.w3-border-blue-gray,
+.w3-hover-border-blue-gray:hover {
+    border-color: #607d8b!important
+}
+
+.w3-border-green,
+.w3-hover-border-green:hover {
+    border-color: #4CAF50!important
+}
+
+.w3-border-light-green,
+.w3-hover-border-light-green:hover {
+    border-color: #8bc34a!important
+}
+
+.w3-border-indigo,
+.w3-hover-border-indigo:hover {
+    border-color: #3f51b5!important
+}
+
+.w3-border-khaki,
+.w3-hover-border-khaki:hover {
+    border-color: #f0e68c!important
+}
+
+.w3-border-lime,
+.w3-hover-border-lime:hover {
+    border-color: #cddc39!important
+}
+
+.w3-border-orange,
+.w3-hover-border-orange:hover {
+    border-color: #ff9800!important
+}
+
+.w3-border-deep-orange,
+.w3-hover-border-deep-orange:hover {
+    border-color: #ff5722!important
+}
+
+.w3-border-pink,
+.w3-hover-border-pink:hover {
+    border-color: #e91e63!important
+}
+
+.w3-border-purple,
+.w3-hover-border-purple:hover {
+    border-color: #9c27b0!important
+}
+
+.w3-border-deep-purple,
+.w3-hover-border-deep-purple:hover {
+    border-color: #673ab7!important
+}
+
+.w3-border-red,
+.w3-hover-border-red:hover {
+    border-color: #f44336!important
+}
+
+.w3-border-sand,
+.w3-hover-border-sand:hover {
+    border-color: #fdf5e6!important
+}
+
+.w3-border-teal,
+.w3-hover-border-teal:hover {
+    border-color: #009688!important
+}
+
+.w3-border-yellow,
+.w3-hover-border-yellow:hover {
+    border-color: #ffeb3b!important
+}
+
+.w3-border-white,
+.w3-hover-border-white:hover {
+    border-color: #fff!important
+}
+
+.w3-border-black,
+.w3-hover-border-black:hover {
+    border-color: #000!important
+}
+
+.w3-border-grey,
+.w3-hover-border-grey:hover,
+.w3-border-gray,
+.w3-hover-border-gray:hover {
+    border-color: #9e9e9e!important
+}
+
+.w3-border-light-grey,
+.w3-hover-border-light-grey:hover,
+.w3-border-light-gray,
+.w3-hover-border-light-gray:hover {
+    border-color: #f1f1f1!important
+}
+
+.w3-border-dark-grey,
+.w3-hover-border-dark-grey:hover,
+.w3-border-dark-gray,
+.w3-hover-border-dark-gray:hover {
+    border-color: #616161!important
+}
+
+.w3-border-pale-red,
+.w3-hover-border-pale-red:hover {
+    border-color: #ffe7e7!important
+}
+
+.w3-border-pale-green,
+.w3-hover-border-pale-green:hover {
+    border-color: #e7ffe7!important
+}
+
+.w3-border-pale-yellow,
+.w3-hover-border-pale-yellow:hover {
+    border-color: #ffffcc!important
+}
+
+.w3-border-pale-blue,
+.w3-hover-border-pale-blue:hover {
+    border-color: #e7ffff!important
+}
+
+
+/* -------------------------------------------------------------------------------------02.Padding */
+
+
+/* 02.top */
+
+.padding-t-5 {
+    padding-top: 5px !important;
+}
+
+.padding-t-10 {
+    padding-top: 10px !important;
+}
+
+.padding-t-15 {
+    padding-top: 15px !important;
+}
+
+.padding-t-30 {
+    padding-top: 30px !important;
+}
+
+
+/* 02.bottom */
+
+.padding-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.padding-b-10 {
+    padding-bottom: 10px !important;
+}
+
+.padding-b-15 {
+    padding-bottom: 15px !important;
+}
+
+.padding-b-30 {
+    padding-bottom: 30px !important;
+}
+
+
+/* 02.left */
+
+.padding-l-5 {
+    padding-left: 5px !important;
+}
+
+.padding-l-10 {
+    padding-left: 10px !important;
+}
+
+.padding-l-15 {
+    padding-left: 15px !important;
+}
+
+.padding-l-30 {
+    padding-left: 30px !important;
+}
+
+
+/* 02.right */
+
+.padding-r-5 {
+    padding-right: 5px !important;
+}
+
+.padding-r-10 {
+    padding-right: 10px !important;
+}
+
+.padding-r-15 {
+    padding-right: 15px !important;
+}
+
+.padding-r-30 {
+    padding-right: 30px !important;
+}
+
+
+/* 02.top-bottom */
+
+.padding-tb-5 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.padding-tb-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.padding-tb-15 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.padding-tb-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+
+/* 02.left-right */
+
+.padding-lr-5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.padding-lr-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.padding-lr-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.padding-lr-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+
+/* 02.all */
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+
+/* -------------------------------------------------------------------------------------03.Margin */
+
+
+/* 03.top */
+
+.margin-t-5 {
+    margin-top: 5px !important;
+}
+
+.margin-t-10 {
+    margin-top: 10px !important;
+}
+
+.margin-t-15 {
+    margin-top: 15px !important;
+}
+
+.margin-t-30 {
+    margin-top: 30px !important;
+}
+
+
+/* 03.bottom */
+
+.margin-b-5 {
+    margin-bottom: 5px !important;
+}
+
+.margin-b-10 {
+    margin-bottom: 10px !important;
+}
+
+.margin-b-15 {
+    margin-bottom: 15px !important;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px !important;
+}
+
+
+/* 03.left */
+
+.margin-l-5 {
+    margin-left: 5px !important;
+}
+
+.margin-l-10 {
+    margin-left: 10px !important;
+}
+
+.margin-l-15 {
+    margin-left: 15px !important;
+}
+
+.margin-l-30 {
+    margin-left: 30px !important;
+}
+
+
+/* 03.right */
+
+.margin-r-5 {
+    margin-right: 5px !important;
+}
+
+.margin-r-10 {
+    margin-right: 10px !important;
+}
+
+.margin-r-15 {
+    margin-right: 15px !important;
+}
+
+.margin-r-30 {
+    margin-right: 30px !important;
+}
+
+
+/* 03.top-bottom */
+
+.margin-tb-5 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.margin-tb-10 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.margin-tb-15 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.margin-tb-30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+
+/* 03.left-right */
+
+.margin-lr-5 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.margin-lr-10 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.margin-lr-15 {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+.margin-lr-30 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+
+/* 03.all */
+
+.margin-5 {
+    margin: 5px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-30 {
+    margin: 30px;
+}
+
+
+/* -------------------------------------------------------------------------------------04.Button */
+
+
+/* 04.Button product bacsic*/
+
+.button-product-basic {
+    position: relative;
+    /* width: 100%; */
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    font-size: 15px;
+}
+
+.button-product-basic:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/* setting phần tử i,span */
+
+.button-product-basic .hover-text-hidden,
+.button-product-basic .hover-icon-show,
+.button-product-basic .hover-icon-hidden,
+.button-product-basic .hover-text-show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* width: 120px; */
+    transform: translateX(-50%) translateY(-50%);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.button-product-basic .hover-icon-show,
+.button-product-basic .hover-text-show {
+    transform: translateX(-50%) translateY(150%);
+}
+
+
+/* setting thuộc tính hover với phần tử i,span */
+
+.button-product-basic:hover .hover-icon-show,
+.button-product-basic:hover .hover-text-show {
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.button-product-basic:hover .hover-text-hidden {
+    transform: translateX(-50%) translateY(-190%);
+}
+
+.button-product-basic:hover .hover-icon-hidden {
+    transform: translateX(-50%) translateY(-300%);
+}
+
+
+/* -------------------------------------------------------------------------------------05.Display-position */
+
+
+/* 05.Animate-chuyển động */
+
+
+/* 05.Tĩnh */
+
+
+/* bên phải phía trên */
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* trái -giữa */
+
+.left-middle {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateX(-50%);
+}
+
+
+/* chính giữa */
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+/* ở dưới-chính giữa */
+
+.bottom-middle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* -------------------------------------------------------------------------------------06.Pin */
+
+.pin {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid white;
+    color: #eeeeee;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    top: 50%;
+    left: 50%;
+}
+
+.pin:hover {
+    background-color: var(--highlight-color1);
+}
+
+
+/* -------------------------------------------------------------------------------------07.Reset thuộc tính */
+
+.reset-col {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.fix-line-height-30 {
+    line-height: 20px;
+}
+
+.reset-mar-p {
+    margin-bottom: 0rem;
+}
+
+
+/* -------------------------------------------------------------------------------------08.Thuộc tính đơn */
+
+
+/* Border */
+
+.w3-border-0 {
+    border: 0!important
+}
+
+.w3-border {
+    border: 1px solid #ccc!important
+}
+
+.w3-border-top {
+    border-top: 1px solid #ccc!important
+}
+
+.w3-border-bottom {
+    border-bottom: 1px solid #ccc!important
+}
+
+.w3-border-left {
+    border-left: 1px solid #ccc!important
+}
+
+.w3-border-right {
+    border-right: 1px solid #ccc!important
+}
+
+
+/* w3-card */
+
+.w3-card,
+.w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.w3-card-4,
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/* 08.round */
+
+.round-small {
+    border-radius: 2px;
+}
+
+.round-medium {
+    border-radius: 4px;
+}
+
+.round-large {
+    border-radius: 8px;
+}
+
+.round-xlarge {
+    border-radius: 16px;
+}
+
+.round-xxlarge {
+    border-radius: 32px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+ul {
+    list-style: none !important;
+    margin-bottom: 0rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* delay */
+
+
+/* transition delay */
+
+.delay-1s {
+    animation-delay: 1s
+}
+
+.delay-2s {
+    animation-delay: 2s
+}
+
+.delay-3s {
+    animation-delay: 3s
+}
+
+.delay-4s {
+    animation-delay: 4s
+}
+
+.delay-5s {
+    animation-delay: 5s
+}
+
+
+/* -------------------------------------------------------------------------------------09.Định dạng text*/
+
+
+/* 09.Font-family */
+
+@font-face {
+    src: url(../font/static/Quicksand-Regular.ttf);
+    font-family: font1;
+}
+
+.Quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 09.icon-text */
+
+.icon {
+    margin: 0px 5px;
+}
+
+.icon i {
+    transition: 0.2s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.icon i.not-align {
+    vertical-align: baseline;
+}
+
+
+/* 09.định dạng số dòng 1 đoạn văn bản */
+
+.text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 09.Text align */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* 09.Font-weight */
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
+
+.weight-900 {
+    font-weight: 900;
+}
+
+
+/*09.font-size */
+
+.text-12 {
+    font-size: 12px !important;
+}
+
+.text-13 {
+    font-size: 13px !important;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-19 {
+    font-size: 19px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-21 {
+    font-size: 21px;
+}
+
+.text-22 {
+    font-size: 22px;
+}
+
+
+/* -------------------------------------------------------------------------------------10.Vị trí bắt đầu phần tử */
+
+.center {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.left-start {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important
+}
+
+.right-end {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+
+/* -------------------------------------------------------------------------------------11.Dropdown menu */
+
+
+/* Dropdown-center */
+
+.ul-center {
+    list-style: none !important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    position: relative;
+    -ms-flex-pack: center!important;
+    justify-content: center!important
+}
+
+.ul-center>li>a {
+    margin: 0px 5px;
+}
+
+.dropdown-menu-center {
+    position: absolute;
+    visibility: hidden;
+    z-index: 20;
+    display: inline;
+    color: #212529;
+    overflow: auto;
+    width: 82vmax;
+}
+
+
+/* dropdown primary */
+
+.ul-primary {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex!important;
+    position: relative;
+    -ms-flex-pack: center!important;
+    justify-content: center!important
+}
+
+.ul-primary>a,
+.ul-primary>li {
+    position: relative;
+    transition: 0.4s;
+}
+
+.ul-primary>li>a {
+    margin: 5px;
+}
+
+.ul-primary.borderB>li:hover a,
+.ul-primary.borderB>li>a.active {
+    border-bottom: 2px solid gray;
+}
+
+.ul-primary.phantrang>li>a {
+    padding: 5px 10px;
+}
+
+.ul-primary.phantrang>li>a:hover {
+    background-color: #2222224f;
+    color: white;
+}
+
+.dropdown-menu-primary {
+    transform: none;
+    text-align: left;
+    min-width: 200px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    display: inline;
+    color: #212529;
+}
+
+.dropdown-menu-primary.fix {
+    min-width: 150px;
+    max-width: 250px;
+}
+
+
+/* ------------------- */
+
+
+/* dành cho dropdown menu primary */
+
+.dropdown-menu-primary.bottom-in {
+    top: 142%;
+    left: 0%;
+}
+
+.dropdown-menu-primary.left-in {
+    top: 101%;
+    left: 50%;
+}
+
+.dropdown-menu-primary.bottom-in-end {
+    top: 142%;
+    right: 0%;
+}
+
+.dropdown-menu-primary.li-zoom-out {
+    top: 101%;
+    left: 0%;
+    transform: scale(0);
+}
+
+.dropdown-menu-primary.right-in {
+    top: 101%;
+    left: -50%;
+}
+
+.ul-primary>a:hover .bottom-in,
+.ul-primary>li:hover .bottom-in,
+.ul-primary>a:hover .left-in,
+.ul-primary>li:hover .left-in,
+.ul-primary>a:hover .right-in,
+.ul-primary>li:hover .right-in {
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+    top: 101%;
+    transition: 0.3s;
+}
+
+.ul-primary>a:hover .li-zoom-out,
+.ul-primary>li:hover .li-zoom-out {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.ul-primary>a:hover .bottom-in-end,
+.ul-primary>li:hover .bottom-in-end {
+    opacity: 1;
+    visibility: visible;
+    right: 0%;
+    top: 102%;
+    transition: 0.3s;
+}
+
+
+/* dành cho dropdown menu center */
+
+.dropdown-menu-center.bottom-eff-menu {
+    top: 142%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translateX(-50%) translateY(15%); */
+}
+
+.dropdown-menu-center.bottom-in {
+    top: 142%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.dropdown-menu-center.left-in {
+    top: 101%;
+    left: 70%;
+    transform: translate(-50%);
+}
+
+.dropdown-menu-center.right-in {
+    top: 101%;
+    left: 30%;
+    transform: translate(-50%);
+}
+
+.dropdown-menu-center.li-zoom-out {
+    top: 101%;
+    left: 50%;
+    /* transform-origin: 50% 50%; */
+    transform: translate(-50%) scale(0);
+}
+
+
+/* hover effect */
+
+.ul-center>li:hover>a {
+    color: var(--highlight-color1);
+}
+
+.ul-center>li:hover>a {
+    border-bottom: 1px solid rgba(23, 178, 199, 0.199);
+}
+
+.ul-center>a:hover .bottom-eff-menu,
+.ul-center>li:hover .bottom-eff-menu {
+    top: 102%;
+    /* transform: translateX(-50%) translateY(8%); */
+    visibility: visible;
+    /* opacity: 1; */
+    transition: 0.5s;
+}
+
+.ul-center>a:hover .bottom-in,
+.ul-center>li:hover .bottom-in,
+.ul-center>a:hover .left-in,
+.ul-center>li:hover .left-in,
+.ul-center>a:hover .right-in,
+.ul-center>li:hover .right-in {
+    visibility: visible;
+    opacity: 1;
+    left: 50%;
+    top: 101%;
+    transition: 0.5s;
+}
+
+.ul-center>a:hover .li-zoom-out,
+.ul-center>li:hover .li-zoom-out {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s;
+    transform: translate(-50%) scale(1);
+}
+
+
+/* -------------------------------------------------------------------------------------12.Slide */
+
+.img-background {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 100vh;
+    width: 100vmax;
+}
+
+.carousel-indicators.li-radius li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+/* -------------------------------------------------------------------------------------13.Box ratio */
+
+
+/* -----------------------------------------------------------------------box-ratio  */
+
+.box-ratio {
+    position: relative;
+    overflow: hidden;
+}
+
+.box-ratio::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* initial ratio of 1:1*/
+}
+
+
+/* chiều rộng / chiều cao 
+100*rộng/cao
+*/
+
+.box-ratio.ratio-option::before {
+    padding-top: 145%;
+    visibility: hidden;
+    /* padding-bottom: 5px; */
+}
+
+.box-ratio.ratio-1-1::before {
+    padding-top: 100%;
+}
+
+.box-ratio.ratio-2-1::before {
+    padding-top: 50%;
+}
+
+.box-ratio.ratio-1-2::before {
+    padding-top: 200%;
+}
+
+.box-ratio.ratio-4-3:before {
+    padding-top: 75%;
+}
+
+.box-ratio.ratio-5-3:before {
+    padding-top: 60%;
+}
+
+.box-ratio.ratio-16-9:before {
+    padding-top: 56.25%;
+}
+
+
+/* phần tử nằm trong box ratio */
+
+.box-ratio .image,
+.box-ratio .image-slow,
+.box-ratio .image2,
+.box-ratio .bg-hover::before,
+.box-ratio .bg-hover-zoom-out::before,
+.box-ratio .bg-hover-zoom-out-hidden::before,
+.box-ratio .bg-show::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-size: cover;
+    transform: scale(1.02);
+    background-position: center center;
+    transition: opacity .3s, transform 0.5s cubic-bezier(.25, .46, .45, .94), -webkit-transform 0.5s cubic-bezier(.25, .46, .45, .94);
+}
+
+
+/* highlight-sale */
+
+.highlight-sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 50%;
+    /* border: 1px solid #ffffff63; */
+}
+
+
+/*animate ratio box */
+
+
+/* top to middle */
+
+.top-to-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-100%) translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.box-ratio:hover .top-to-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* -----------------------------------------------------------------background-position cho img ratio box */
+
+.image.bg-top-center,
+.image2.bg-top-center,
+.bg-position-edit {
+    background-position: top center;
+}
+
+.image.bg-bottom-center,
+.image2.bg-bottom-center {
+    background-position: center bottom;
+}
+
+
+/*-----------------------------------------------------------------------------------hiệu ứng */
+
+
+/* display-effect */
+
+.box-ratio:hover .top-right.hover-hidden,
+.box-ratio:hover .bottom-middle.hover-hidden,
+.box-ratio:hover .middle.hover-hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+
+/* -----------------------------------------------------------------Box-ratio hover */
+
+
+/* tác động vào class image,image2 */
+
+.image-opacity-zoom:hover .image2 {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.image-opacity-zoom:hover .image {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+
+/* tác động vào hiệu ứng player background phần tử con box-ratio */
+
+.box-ratio .bg-hover-zoom-out-hidden::before {
+    border-radius: 50%;
+}
+
+.box-ratio .bg-hover::before,
+.box-ratio .bg-hover-zoom-out::before,
+.box-ratio .bg-hover-zoom-out-hidden::before {
+    content: '';
+    /* background-color: #0a0a0a1f; */
+    background-color: rgba(255, 255, 255, .3);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.box-ratio .bg-hover-zoom-out-hidden::before {
+    transform: scale(0);
+    opacity: 1;
+    visibility: visible;
+    transition: 0s;
+}
+
+.box-ratio:hover .bg-hover-zoom-out-hidden::before {
+    transform: scale(1);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+}
+
+.box-ratio .bg-hover-zoom-out::before {
+    transform: scale(0);
+}
+
+.box-ratio:hover .bg-hover::before,
+.box-ratio:hover .bg-hover-zoom-out::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.box-ratio:hover .bg-hover-zoom-out::before {
+    transform: scale(1);
+}
+
+.box-ratio .bg-show::before {
+    content: '';
+    background-color: #0a0a0a0e;
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-zoom-out:hover .image {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+.image-zoom-slow .image {
+    transition: 5s;
+}
+
+.image-zoom-slow:hover .image {
+    transform: scale(1.4);
+    transition: 5s;
+}
+
+
+/* -------------------------------------------------------------------------------------14.Title */
+
+
+/* -------------------------------------------------------------------------------------15.Tool-tip */
+
+.box-tooltip {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d8e2d3;
+    border: 1px solid #7971715d;
+    position: relative;
+}
+
+.tooltip-top {
+    position: absolute;
+    top: -52px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    padding: 5px 9px;
+    border-radius: 2px;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+
+.tooltip-top::after {
+    content: '';
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    bottom: -6px;
+    left: 50%;
+    background-color: rgb(2, 2, 2);
+    transform: rotate( 45deg) translateX(-50%);
+}
+
+.box-tooltip:hover .tooltip-top {
+    opacity: 1;
+    visibility: visible;
+    top: -37px;
+}
+
+
+/* -------------------------------------------------------------------------------------16.Responsive */
+
+
+/* extra small max 543px */
+
+
+/* small max 767px */
+
+
+/* medium max 991px */
+
+
+/* large max 1199px */
+
+
+/* large xl >1199px */
+
+
+/* setting padding */
+
+@media (min-width:320px) and (max-width:543px) {
+    /* màn hình xs */
+    .hide-xs {
+        display: none;
+    }
+    /* top */
+    .fs-data-menu {
+        font-size: 12px !important;
+    }
+    /* caption */
+    .link-box {
+        display: inline-block !important;
+    }
+    .T-large {
+        font-size: 39px;
+    }
+    .T-small {
+        font-size: 19px;
+    }
+    .button-link {
+        width: 139px;
+        height: 36px;
+    }
+    .hq-caption {
+        /* background-color: yellow; */
+        width: 320px;
+    }
+    .img-background {
+        height: 60vh;
+    }
+    .highlight-sale {
+        width: 39px;
+        height: 39px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:544px) and (max-width:767px) {}
+
+
+/* màn hình sm */
+
+@media (min-width:768px) and (max-width:991px) {}
+
+
+/* màn hình md */
+
+@media (min-width:992px) and (max-width:1199px) {
+    /* màn hình lg */
+}
+
+@media (max-width:1025px) {
+    /*menu */
+    .logo-large,
+    .menu-large {
+        display: none;
+        opacity: 0;
+    }
+    .logo-small {
+        text-align: center;
+    }
+    .left-start.change-setting,
+    .right-end.change-setting {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .right-end ul li .icon,
+    .left-start .icon {
+        padding: 10px 0px;
+    }
+    .footer-menu,
+    .footer-menu2 {
+        text-align: center;
+    }
+}
+
+@media (min-width:1026px) {
+    /* menu */
+    .logo-small,
+    .menu-small {
+        display: none;
+    }
+    .fs-data-menu {
+        height: 42px;
+        line-height: 42px;
+        padding: 0px 68px;
+    }
+    .menu {
+        padding: 0px 68px;
+    }
+    .img-background {
+        background-position: top center;
+    }
+    .row-padding {
+        padding: 0px 68px;
+    }
+}
+
+
+/* -------------------------------------------------------------------------------------17.HQ JS */
+
+
+/*HQ Css -js  */
+
+.border-tb {
+    border-top: 1px solid #ffffff26;
+}
+
+
+/* 1.Menu small */
+
+.content-menu-small {
+    height: auto;
+    background-color: #2f082555;
+}
+
+.icon-menu {
+    color: #465454;
+    cursor: pointer;
+    font-size: 22px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.button-close-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 6px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgba(5, 5, 5, 0.301);
+    z-index: 100;
+    color: #ffffff;
+}
+
+.button-close-menu:hover {
+    background-color: rgba(22, 22, 22, 0.616);
+}
+
+.modal-menu {
+    z-index: 9999 !important;
+    display: none;
+    /* padding-top: 25px; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.height-modal-menu {
+    height: 99vh;
+}
+
+.box-menu-setting {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 300px;
+    height: auto;
+    overflow: auto;
+    margin: 0px;
+    border-radius: 0px;
+    z-index: 100;
+}
+
+.li-small-setting {
+    padding: 12px 0px;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.big-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.small-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    font-size: 16px;
+    padding: 5px 15px;
+    color: var(--text-normal-color);
+}
+
+.link a {
+    color: var(--text-normal-color);
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    padding: 5px 25px;
+}
+
+.bg-selector {
+    background-color: #1e1f2057;
+}
+
+.color-selector {
+    color: white;
+}
+
+.box-menu-small span::after,
+.box-menu-small span::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 12px;
+    height: 2px;
+    background-color: rgba(31, 29, 29, 0.579);
+    transition: 0.3s;
+}
+
+.box-menu-small span::before {
+    transform: rotate(90deg);
+}
+
+span.big-title.demo::before,
+span.big-title.demo::after,
+span.small-title.demo::after,
+span.small-title.demo::before {
+    transform: rotate(180deg);
+}
+
+.animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+
+/* 2.box đăng nhập */
+
+.box-reg,
+.box-login {
+    width: 320px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px 2px #0c0c0c30;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    padding-bottom: 15px;
+}
+
+.form-reg {
+    padding: 0px 20px 20px 20px;
+    font-size: 15px;
+}
+
+input#ten,
+input#pwd {
+    font-size: 15px;
+}
+
+.title-reg,
+.title-login {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #b59284;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.title-login {
+    background-color: #694940;
+}
+
+.img-reg {
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+
+button.btn.btn-setting {
+    background-color: #ADBFCB !important;
+    color: white !important;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+button.btn.btn-setting.special {
+    background-color: #DBD6D3 !important;
+}
+
+button.btn.btn-setting:hover {
+    background-color: #DBD6D3 !important;
+}
+
+
+/* box-sroll */
+
+.box {
+    width: 379px;
+    padding: 79px 0px;
+    margin: 0px auto;
+}
+
+.title-scroll {
+    background-color: #8ca4b7db;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff6b;
+    transition: 0.5s;
+}
+
+.title-scroll:hover {
+    background-color: #667077db;
+}
+
+.text {
+    padding: 0px 15px;
+}
+
+.hoverColor {
+    background-color: #7c909b;
+    color: rgb(255, 255, 255);
+}
+
+
+/* one page web */
+
+nav.menutren {
+    height: 55px;
+    width: 100%;
+    background-color: #757a7e;
+    position: fixed;
+    top: 0px;
+    z-index: 39;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav.menutren.transparent {
+    background-color: transparent;
+}
+
+.menutren ul li {
+    float: left;
+    list-style: none;
+    /* margin-left: 10px; */
+}
+
+.menutren ul li a {
+    text-decoration: none;
+    /* line-height: 55px; */
+    display: inline-block;
+    padding: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.menutren ul li a:hover {
+    border-top: 3px solid #6ce42b;
+    padding: 12px 15px;
+}
+
+.menutren ul li a.active {
+    border-top: 3px solid #6ce42b;
+    padding: 12px 15px;
+    color: #6ce42b;
+}
+
+
+/* phần back to top */
+
+.button-ToTop {
+    background-color: #e3ee4c;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    z-index: 9999;
+    box-shadow: #00000038 0 0 16px 0px;
+    transition: 0.3s;
+}
+
+.button-ToTop:hover {
+    background-color: #ce9b46;
+    color: white;
+    /* border: 1px solid rgba(0, 0, 0, 0.377); */
+}
+
+.backtotop {
+    position: fixed;
+    color: rgba(19, 18, 18, 0.692);
+    left: 5px;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 9999;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+/* Pin top menu */
+
+nav.menu-pin {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: static;
+    top: 0px;
+    z-index: 15;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-pin ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 16px 18px;
+}
+
+.menu-pin ul li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.menu-pin ul li:hover a {
+    background-color: #5d131387;
+    color: rgb(241, 241, 231);
+}
+
+.menu-pin.in_top {
+    position: fixed;
+    top: 0px;
+}
+
+
+/* album ảnh */
+
+.boxImg img {
+    width: 100%;
+}
+
+.boxImg>a {
+    margin-top: 15px !important;
+    display: inline-block;
+}
+
+
+/* load ảnh */
+
+.NDthem,
+.NDbandau {
+    overflow: hidden;
+}
+
+.load_more {
+    background-color: rgb(118, 120, 238);
+    padding: 5px 10px;
+    /* margin-top: 30px; */
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.load_more:hover {
+    background-color: #192e7391;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.khoibox.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* layout mansory */
+
+.content-mansory {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-mansory .box-mansory,
+.content-mansory .box-mansory-style2 {
+    width: 25%;
+    box-sizing: border-box;
+    margin-bottom: -16px;
+    padding: 5px;
+}
+
+.content-mansory .box-mansory-style2 {
+    width: 48%;
+}
+
+.box-mansory img,
+.box-mansory-style2 img {
+    width: 100%;
+}
+
+
+/* lọc dữ liệu */
+
+.search_filter {
+    text-align: right;
+}
+
+.tukhoa {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.767);
+    border-radius: 5px;
+}
+
+.ul-primary>li>a.setting {
+    margin: 10px 0px !important;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.ul-primary>li>a.setting:hover {
+    color: rgba(245, 65, 104, 0.904);
+}
+
+.content-filter ul li {
+    width: 23%;
+    height: 239px;
+    overflow: hidden;
+    margin: 10px 5px 0px 5px;
+}
+
+.content-filter {
+    width: 100%;
+    margin: auto;
+}
+
+.content-filter ul li a img {
+    width: 100%;
+}
+
+
+/* menu biến đổi */
+
+.bg-scroll {
+    background-color: #b67caf !important;
+    color: black !important;
+    /* border-bottom: 3px solid rgba(116, 113, 113, 0.575); */
+    box-shadow: #000000a8 0 0 20px 2px;
+}
+
+.menutren ul li a.color_change {
+    color: rgba(255, 255, 255, 0.973);
+}
+
+.icon_back_top_show {
+    opacity: 1;
+}
+
+
+/* wow */
+
+.anh {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+
+/* 
+.cangiua .anh:nth-child(3n+3) {
+    margin-right: 0px;
+} */
+
+
+/* modal box */
+
+.modal-title .btn-close {
+    background-color: #644343;
+    display: inline;
+    padding: 2px 10px;
+    border-radius: 3px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modal-box .modal-title h4 {
+    text-align: center;
+    background-color: #545969;
+    height: 50px;
+    line-height: 50px;
+    color: #dcdada;
+    font-weight: 300;
+}
+
+.modal-box {
+    width: 579px;
+    height: 379px;
+    background: #c5c5d8;
+    /* padding: 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    z-index: 2;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+/* style */
+
+
+/* zoon in */
+
+.modal-box.zoom-in {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+/* from right */
+
+.modal-box.from-right {
+    animation: from-right 0.4s;
+}
+
+@keyframes from-right {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.background {
+    background-color: rgb(0 0 0 / 42%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.noidung {
+    padding: 10px;
+    color: #ffffffad;
+    background-color: #6a7c9ab9;
+    width: 100%;
+    height: 100vh;
+}
+
+.modal-box.select,
+.background.select {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-box.select {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.btn-open {
+    background-color: #2d363c;
+    width: 120px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    color: #ffffffcc;
+    cursor: pointer;
+}
+
+
+/* video js */
+
+.setting-plugin-video {
+    width: 100%;
+    height: 250px;
+}
+
+.vjs-poster {
+    background-color: #80c2f1c4 !important;
+    background-size: cover !important;
+}
+
+.video-js {
+    background-color: #b6d3e6 !important;
+}
+
+
+/* https://www.cssfilters.co/ */
+
+.filter {
+    position: relative;
+    -webkit-filter: contrast(102%) brightness(132%) saturate(79%);
+    filter: contrast(102%) brightness(132%) saturate(79%);
+}
+
+.filter::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    background: rgba(243, 106, 188, 0.3);
+}
+
+
+/* tab_box */
+
+.content-tab-box {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.content-tab-box.box-shadow {
+    box-shadow: #0000007d 0 0 20px 1px;
+}
+
+
+/* thumbnail */
+
+.tab-thumbnail {
+    height: 479px;
+    width: 100px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #04040417;
+    border-left: 1px solid #04040417;
+}
+
+.thumbnail-img img {
+    width: 89px;
+    height: 89px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+
+/* large tab */
+
+.tab-content-large {
+    position: relative;
+    width: calc(100% - 100px);
+}
+
+.large-img-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.large-img-tab img {
+    object-fit: cover;
+    /* width: calc(100% - 100px); */
+    width: 100%;
+    height: 479px;
+    padding: 3px 3px 3px 0px;
+}
+
+.large-img-tab.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* phần right */
+
+.primary-box {
+    font-size: 18px;
+}
+
+.add-to-card {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    border-top: 1px solid #5252515c;
+    padding: 15px 0px;
+    margin-top: 15px;
+    border-bottom: 1px solid #5252515c;
+}
+
+
+/* setting số lượng */
+
+.quantity-box {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.mbsc-mobiscroll .mbsc-segmented-content {
+    border: 0.142858em solid #bee8e6;
+    color: #b75f8c;
+}
+
+.mbsc-ios.mbsc-form .mbsc-checkbox,
+.mbsc-ios.mbsc-form .mbsc-radio,
+.mbsc-ios.mbsc-form .mbsc-switch,
+.mbsc-ios.mbsc-form .mbsc-segmented,
+.mbsc-ios.mbsc-form .mbsc-stepper-cont,
+.mbsc-ios.mbsc-input-box.mbsc-checkbox,
+.mbsc-ios.mbsc-input-box.mbsc-radio,
+.mbsc-ios.mbsc-input-box.mbsc-switch,
+.mbsc-ios.mbsc-input-box.mbsc-stepper-cont,
+.mbsc-ios.mbsc-input-outline.mbsc-checkbox,
+.mbsc-ios.mbsc-input-outline.mbsc-radio,
+.mbsc-ios.mbsc-input-outline.mbsc-switch,
+.mbsc-ios.mbsc-input-outline.mbsc-stepper-cont {
+    background: none !important;
+}
+
+.mbsc-mobiscroll .mbsc-segmented-content {
+    border: 0.142858em solid #c7dedd !important;
+    color: #212529 !important;
+}
+
+
+/* -------------------------------------------------------------------------------------18.Test */
+
+.bg-test1 {
+    background-color: #56cfe1;
+}
+
+.bg-test2 {
+    background: #878787;
+}
+
+.bg-test3 {
+    background: #FF4E00;
+}
+
+
+/* -------------------------------------------------------------------------------------19. WordPress */
+
+
+/*--------------------------------------------------------------- WordPress */
+
+
+/* ul-primary wordpress */
+
+
+/* setting -menu c1 wordpress */
+
+.ul-primary-wp {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex!important;
+    position: relative;
+    -ms-flex-pack: center!important;
+    justify-content: center!important
+}
+
+.ul-primary-wp>li {
+    padding: 10px 10px;
+    background-color: brown;
+    color: white;
+    font-weight: 400;
+    position: relative;
+}
+
+.ul-primary-wp>li:hover {
+    background-color: rgb(199, 61, 61);
+}
+
+
+/* setting -menu c2 wordpress */
+
+ul.sub-menu {
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul.sub-menu>li {
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    width: 179px;
+    background-color: #111010d4;
+    font-size: 14px;
+}
+
+ul.sub-menu>li:hover {
+    background-color: #111010fb;
+}
+
+.ul-primary-wp>li:hover ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: 0.4s;
+}
+
+@media (max-width:991px) {
+    /* menu */
+    .ul-primary-wp {
+        display: none !important;
+    }
+}
