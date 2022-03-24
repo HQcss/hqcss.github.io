@@ -2251,7 +2251,7 @@ nav.menutren.transparent {
 /* phần back to top */
 
 .button-ToTop {
-    background-color: #e3ee4c;
+    background-color: #ef8f8f;
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 5px;
@@ -2262,14 +2262,14 @@ nav.menutren.transparent {
 }
 
 .button-ToTop:hover {
-    background-color: #ce9b46;
+    background-color: #fc6868;
     color: white;
     /* border: 1px solid rgba(0, 0, 0, 0.377); */
 }
 
 .backtotop {
     position: fixed;
-    color: rgba(19, 18, 18, 0.692);
+    color: rgb(255, 255, 255);
     left: 5px;
     bottom: 0;
     opacity: 0;
@@ -2427,7 +2427,7 @@ nav.menu-pin {
 /* menu biến đổi */
 
 .bg-scroll {
-    background-color: #b67caf !important;
+    background-color: #ef8f8f !important;
     color: black !important;
     /* border-bottom: 3px solid rgba(116, 113, 113, 0.575); */
     box-shadow: #000000a8 0 0 20px 2px;

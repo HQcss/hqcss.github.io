@@ -212,7 +212,7 @@
 
     function MenuTransform() {
         $(window).scroll(function() {
-            if ($('body,html').scrollTop() > 580) {
+            if ($('body,html').scrollTop() > 180) {
                 $('.menutren').addClass('bg-scroll');
                 $('.menutren ul li a').addClass('color_change');
                 $('.backtotop').addClass('icon_back_top_show');
