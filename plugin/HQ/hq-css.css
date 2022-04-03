@@ -1,0 +1,282 @@
+/* Top (data-menu,menu,slide) */
+
+
+/* -----------------------------------------------------------------------carousel caption */
+
+.hq-caption {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*  */
+
+.caption-box {
+    width: 100%;
+    text-align: center;
+    color: white !important;
+    text-transform: uppercase;
+}
+
+
+/* caption dành cho slide trượt */
+
+.caption-slide {
+    position: absolute;
+    z-index: 1;
+    background-color: #f65b5cb5;
+    color: white;
+    padding: 25px 90px;
+    text-align: center;
+}
+
+
+/* reset thuộc tính */
+
+.link-box {
+    display: flex;
+}
+
+.button-link,
+.button-load {
+    background-color: #212529;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    transition: 0.4s;
+    box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.455);
+}
+
+.button-link:hover {
+    background-color: var(--highlight-color1);
+}
+
+.button-load {
+    height: 50px;
+    margin: 45px;
+    width: 190px;
+    box-shadow: none;
+}
+
+.button-submit {
+    background-color: #56a9e17e;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    height: 100%;
+    color: white;
+}
+
+.box-link {
+    width: 150px;
+    height: 40px;
+    background-color: #487e96;
+    color: white;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.box-link:hover {
+    background-color: #56a9e17e;
+}
+
+.T-large,
+.T-small {
+    color: var(--text-highlight-color);
+    font-weight: 500;
+    margin: 0px;
+    line-height: 1.4;
+    font-size: 55px;
+}
+
+.T-small {
+    font-weight: 400;
+    font-size: 22px;
+    /* background-color: var(--highlight-color1);
+    padding: 2px 5px;
+    color: white;
+    display: inline-block; */
+}
+
+
+/* ----------------------------------------------------------------------carousel*/
+
+
+/* cart.... */
+
+.quantity {
+    position: absolute;
+    top: 17px;
+    right: -12px;
+    background-color: #56a9e17e;
+    color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+
+
+/*------------------------------------------------------------------------------------------ menu */
+
+
+/*--------------------------------------------------------------------------- CONTENT */
+
+
+/* chưa phân loại */
+
+
+/*------------------------------------------------------------------------------ category-title */
+
+.category-title {
+    position: absolute;
+    top: -39px;
+    left: 50%;
+    /* background-color: rgb(255, 255, 255); */
+    transform: translateX(-50%);
+    width: 100%;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.category-style-1::before,
+.category-style-1-w-2::before,
+.category-style-1-w-3::before {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+    background: #222;
+    position: relative;
+}
+
+.category-style-1-w-2::before {
+    width: 395px;
+}
+
+.category-style-1-w-3::before {
+    width: 539px;
+}
+
+.category-style-2::before {
+    content: "";
+    width: 339px;
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.category-style-3 {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    background: #222;
+    position: relative;
+}
+
+
+/* icon box */
+
+.icon-box {
+    font-size: 39px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    color: white;
+}
+
+.bg-gradient:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.288);
+    opacity: 0;
+    /* visibility: hidden; */
+    transition: 0.4s;
+}
+
+.item:hover .icon-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bg-gradient:hover:before {
+    opacity: 1;
+}
+
+
+/* w3-css  modal*/
+
+.modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 90vmax;
+    height: auto;
+}
+
+.modal-content.box-menu-setting {
+    width: 300px;
+    height: auto;
+    overflow: auto;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.modal {
+    z-index: 3;
+    display: none;
+    /* padding-top: 25px; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+
+/* plugin */
+
+
+/* OWL slide */
+
+#owl-demo .item {
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/*------------------------------------------------------------------------------ responsive */

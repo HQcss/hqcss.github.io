@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="plugin/Bootstrap/Boootstrap5-1_w3-school/js/jquery.min.js"></script>
+    <script src="plugin/OWL_Slide/owl.carousel.js"></script>
+    <link rel="stylesheet" href="plugin/OWL_Slide/owl.carousel.css">
+    <link rel="stylesheet" href="plugin/OWL_Slide/owl.theme.css">
+    <link rel="stylesheet" href="plugin/OWL_Slide/owl.transitions.css">
+    <link rel="stylesheet" href="plugin/HQ/hqcss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="owl-demo" class="owl-carousel owl-theme">
+
+        <div class="item">
+            <div class="box-ratio ratio-2-1">
+                <div class="image" style="background-image: url(img/test/1.jpg);"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box-ratio ratio-2-1">
+                <div class="image" style="background-image: url(img/test/2.jpg);"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box-ratio ratio-2-1">
+                <div class="image" style="background-image: url(img/slide/loobook_3750x.jpg);"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+
+
+        var owl = $("#owl-demo");
+
+        owl.owlCarousel({
+            autoPlay: 3000,
+            navigation: true,
+            singleItem: true,
+            transitionStyle: "backSlide"
+        });
+
+    });
+</script>
+
+</html>

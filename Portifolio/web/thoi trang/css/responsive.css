@@ -1,0 +1,153 @@
+/*------------------------------------------------------------------------------ responsive */
+
+
+/* extra small max 543px */
+
+
+/* small max 767px */
+
+
+/* medium max 991px */
+
+
+/* large max 1199px */
+
+
+/* large xl >1199px */
+
+@media (max-width:576px) {
+    .hide-xs {
+        display: none;
+    }
+    .title span {
+        font-size: 12px;
+    }
+    .title p {
+        font-size: 14px;
+    }
+    /* -----------------------------------------------------------------------------------Tiêu đề */
+    .title-responsive {
+        font-size: 17px;
+    }
+    .title-ps1 {
+        display: none;
+    }
+    .title-ps2 {
+        margin-top: 10px;
+    }
+    .hide-xs-sm {
+        display: none;
+    }
+}
+
+@media (min-width:544px) and (max-width:767px) {
+    .hide-xs-sm {
+        display: none;
+    }
+    .title span {
+        font-size: 14px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    /* -----------------------------------------------------------------------------------Tiêu đề */
+    .title-responsive {
+        font-size: 16px;
+    }
+    .title-ps1 h6 {
+        font-size: 16px;
+    }
+    .content-news>p {
+        font-size: 15px !important;
+    }
+    .title-ps2 {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:990px) {
+    .title-ps1 h6 {
+        font-size: 16px;
+    }
+    .content-news>p {
+        font-size: 15px !important;
+    }
+    .title-ps2 {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .lg-hide {
+        display: none;
+    }
+    .title span {
+        font-size: 14px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .f-right,
+    .f-left {
+        text-align: center;
+    }
+    .setting-qc-top {
+        padding: 0px 0px;
+    }
+    .setting-content {
+        margin-top: 30px;
+        padding: 0px;
+    }
+    /* content--------------------------------------------------------------------chi tiet tin */
+    .content-chitiet {
+        background-color: white;
+        box-shadow: 1px 0px 4px 0 #8080806b;
+        padding: 30px 15px 0px 15px;
+    }
+}
+
+@media (min-width:992px) {
+    .lg-show {
+        display: none;
+    }
+    .logo-small {
+        display: none;
+    }
+    .setting-row {
+        padding: 20px 20px 0px 20px;
+    }
+    .title span {
+        font-size: 14px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .setting-qc-top {
+        padding: 0px 100px;
+    }
+    .setting-content {
+        margin-top: 30px;
+        padding: 0px 50px;
+    }
+    /* container-chi tiet tin */
+    .container-chitiet,
+    .container-list {
+        padding: 0px 100px;
+    }
+    /* content-chi tiet tin */
+    .content-chitiet,
+    .content-list {
+        background-color: white;
+        box-shadow: 1px 0px 4px 0 #8080806b;
+        padding: 30px 15px 0px 15px;
+    }
+    .title-ps1 {
+        display: none;
+    }
+    .content-news>p {
+        font-size: 15px !important;
+    }
+    .setting-banner {
+        padding: 0px 100px;
+    }
+}

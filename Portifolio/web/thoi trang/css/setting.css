@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    padding: 25px 0px;
+    background-color: #F2F2F4;
+    text-align: center;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.margin-setting {
+    margin-bottom: 30px;
+}
+
+.demo {
+    text-transform: capitalize;
+}

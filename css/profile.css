@@ -1,0 +1,134 @@
+body {
+    /* background-color: #ef8f8f3b !important; */
+    background-color: #e1ece6 !important;
+}
+
+.modal-menu {
+    margin-top: 42px !important;
+}
+
+.icon-menu {
+    color: #fdffff;
+}
+
+
+/* .content-page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: rgb(85, 179, 217);
+    background: linear-gradient(86deg, rgba(85, 179, 217, 1) 0%, rgba(220, 232, 232, 1) 49%, rgba(136, 232, 242, 1) 100%);
+} */
+
+.avatar {
+    height: 356px;
+    width: 356px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* .content-page1::before {
+    content: '';
+    background: rgb(85, 179, 217);
+    background: radial-gradient(circle, rgba(85, 179, 217, 1) 0%, rgba(220, 232, 232, 1) 49%, rgba(136, 232, 242, 1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50%;
+} */
+
+
+/* Skill */
+
+.content-page2 {}
+
+.level-skill {
+    position: relative;
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #675085;
+}
+
+.level-skill::before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #9477b9;
+}
+
+.skill-bar {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    transition: 0.1s linear;
+    background-color: #ffffff;
+    box-shadow: inset 2px 2px 4px rgb(55 84 170 / 30%), inset -2px -2px 4px white;
+}
+
+.skill-bar .skillbar-level,
+.skill-bar .skillbar-title {
+    position: absolute;
+    top: -23px;
+    right: 6px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.skill-bar .skillbar-title {
+    left: 6px;
+}
+
+.skill-level {
+    height: 10px;
+    width: 0;
+    border-radius: 5px;
+    background-color: #72C8E1;
+}
+
+.content-page3 {}
+
+.box-ratio.ratio-portfolio::before {
+    padding-top: 72%;
+    visibility: hidden;
+    /* padding-bottom: 5px; */
+}
+
+.content-page4 {}
+
+.content-page5 {}
+
+footer {
+    height: 55px;
+    background-color: #242424;
+}
+
+@media (min-width:320px) and (max-width:543px) {
+    /* màn hình xs */
+    .avatar {
+        height: 256px;
+        width: 256px;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:1020px) {
+    .hide-xs {
+        display: none;
+    }
+}

@@ -1,0 +1,212 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Quicksand, sans-serif;
+}
+
+.color {
+    background-color: blue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.theme {
+    height: 100%;
+    width: 100%;
+}
+
+.theme .top {
+    position: fixed;
+    top: 0;
+    margin: 0px auto;
+    background-color: #343e4e;
+    padding: 10px;
+    z-index: 5;
+}
+
+.theme .top .logo {
+    font-size: 20px;
+    display: inline;
+    padding: 6px;
+    color: white;
+    background-color: #343e4e;
+}
+
+.theme .top .col-setting {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.theme .top .col-setting .icon-top {
+    font-size: 21px;
+    color: #ffffff;
+    /* color: #343e4e; */
+    line-height: 32px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.theme .top .col-setting .icon-top:hover {
+    transform: scale(1.2);
+    color: #7a4792;
+}
+
+.theme .top .form-setting {
+    height: 30px;
+}
+
+
+/* End -top */
+
+
+/* content */
+
+.content {
+    padding-bottom: 114px;
+    display: block;
+}
+
+.content .background-top {
+    padding: 10px;
+    box-sizing: border-box;
+    background: cornflowerblue;
+    background-position: center center;
+    background-size: cover;
+}
+
+.theme .map {
+    margin-top: 65px;
+    text-align: right;
+}
+
+.theme .highlight {
+    background-color: tomato;
+    padding: 2px 3px;
+    border-radius: 2px;
+    color: white;
+}
+
+.theme .one-profile {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.theme .one-profile:hover .chitiet {
+    opacity: 1;
+}
+
+.theme .one-profile img {
+    transition: 0.5s;
+}
+
+.theme .one-profile:hover img {
+    transform: scale(1.2);
+}
+
+.theme .one-profile:hover .diachi,
+.theme .one-profile:hover .thongtin {
+    opacity: 0;
+}
+
+.theme .one-profile .thongtin {
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    transition: 0.5s;
+}
+
+.theme .one-profile .diachi {
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    /* background-color: tomato; */
+}
+
+.theme .one-profile .chitiet {
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    top: 0;
+    transition: 0.5s;
+    /* transform: translateX(-50%); */
+    background-color: #2923226b;
+    height: 100%;
+    line-height: 219px;
+    text-align: center;
+    padding: 3px;
+    opacity: 0;
+}
+
+.theme .one-profile .chitiet a {
+    text-decoration: none;
+    color: white;
+}
+
+.theme .one-profile .thongtin .title-highlight,
+.theme .one-profile .diachi .title-highlight {
+    background-color: rgb(52 62 78 / 69%);
+    color: white;
+    padding: 2px 6px;
+}
+
+.theme .one-profile .thongtin .title-highlight.active,
+.theme .one-profile .diachi .title-highlight.active {
+    background-color: #65e072;
+    color: white;
+    padding: 2px 6px;
+}
+
+.theme .one-profile .thongtin .title-highlight.not-active,
+.theme .one-profile .diachi .title-highlight.not-active {
+    background-color: #fd3030a8;
+    color: white;
+    padding: 2px 6px;
+}
+
+
+/* bottom */
+
+.theme .bottom-control {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343e4e;
+}
+
+.theme .bottom-control .one-item {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* background-color: teal; */
+}
+
+.theme .bottom-control .one-item p.title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.icon {
+    color: white;
+    font-size: 32px;
+}
+
+.theme .bottom-control .one-item:hover p.title {
+    color: #c1b7c3;
+}
+
+.one-item:hover .icon,
+.one-item:hover .title {
+    color: rgb(116 213 246);
+}
